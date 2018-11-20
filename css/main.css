@@ -44,14 +44,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #262626;
+    background: #006700;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-kutman {
-    background: #333;
+    background: green;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-kutman.show {
@@ -106,7 +106,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #333;
+  background: green;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -116,7 +116,7 @@ body {
   body#bg-img {
     background: url("../img/background.jpg");
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: 100% 100%; }
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -125,7 +125,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(51, 51, 51, 0.7); }
+      background: rgba(0, 0, 0, 0.7); }
 
 h1, h2, h3 {
   margin: 0;
@@ -135,7 +135,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(56, 56, 56, 0.5); }
+    background: rgba(0, 138, 0, 0.5); }
 
 a {
   color: #fff; }
@@ -255,7 +255,7 @@ main {
   margin-top: 70px;
   align-items: center; }
   .job-wrap .job {
-    background-color: #404040;
+    background-color: #009a00;
     padding: 10px;
     border-bottom: 5px solid #eece1a;
     margin-left: 20px; }
@@ -266,7 +266,7 @@ main {
 
 #main-footer {
   justify-content: center;
-  background-color: #262626;
+  background-color: #006700;
   height: 10vh;
   display: -webkit-flex;
   display: -moz-flex;
@@ -316,7 +316,7 @@ main {
     margin-right: 5px; }
 
 .btn-light {
-  background: #b3b3b3;
+  background: #80ff80;
   text-decoration: none;
   color: #333; }
   .btn-light i {
